@@ -1,0 +1,13 @@
+Muchos clientes del API podrán consultar cuentas,
+consultar totales, modificar y cerrar cuentas concurrentemente. 
+
+Escriba su análisis en el archivo ANALISIS_CONCURRENCIA.txt
+
+1. Si existen elementos que fallen de manera concurrente.
+
+2. La condicion de carrera se presenta cuando alguien 
+   intenta ingresar a una orden mientas que alguine la esta mnipulando 
+
+3. La regios creitica se presenta por los get y set de la 
+   calse RestaurantOrderSvices
+
